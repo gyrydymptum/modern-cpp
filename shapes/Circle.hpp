@@ -16,5 +16,5 @@ public:
     void print() const override;
 
 private:
-    double r_;
+    double r_ = 1.0;
 };
