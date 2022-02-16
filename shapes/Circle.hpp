@@ -5,6 +5,7 @@
 class Circle final : public Shape
 {
 public:
+    using Shape::Shape;
     Circle() = delete;
     Circle(double r);
     Circle(const Circle & other) = default;
