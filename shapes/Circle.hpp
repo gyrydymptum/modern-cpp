@@ -9,10 +9,10 @@ public:
     Circle(double r);
     Circle(const Circle & other) = default;
 
-    double getArea() const;
-    double getPerimeter() const;
+    double getArea() const override;
+    double getPerimeter() const override;
     double getRadius() const;
-    void print() const;
+    void print() const override;
 
 private:
     double r_;

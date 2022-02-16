@@ -6,17 +6,17 @@ Square::Square(double x)
 {}
 
 
-double Square::getArea()
+double Square::getArea() const
 {
     return getX() * getX();
 }
 
-double Square::getPerimeter()
+double Square::getPerimeter() const
 {
     return 4 * getX();
 }
 
-void Square::print()
+void Square::print() const
 {
     std::cout << "Square:      x: " << getX() << std::endl
               << "          area: " << getArea() << std::endl
