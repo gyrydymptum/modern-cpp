@@ -10,6 +10,7 @@ class Shape
 private:
 Color color = Color::White;
 
+
 public:
     virtual ~Shape() {}
 
