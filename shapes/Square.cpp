@@ -6,12 +6,12 @@ Square::Square(double x)
 {}
 
 
-double Square::getArea() const
+double Square::getArea() const noexcept 
 {
     return getX() * getX();
 }
 
-double Square::getPerimeter() const
+double Square::getPerimeter() const noexcept 
 {
     return 4 * getX();
 }
