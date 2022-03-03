@@ -2,7 +2,7 @@
 
 #include "Shape.hpp"
 
-class Circle final : public Shape
+class alignas(16) Circle final : public Shape
 {
 public:
     using Shape::Shape;
